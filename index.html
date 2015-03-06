@@ -1,0 +1,58 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send</title>
+  </head>
+  <body>
+
+        <div id="utilize" class="reveal-modal" data-reveal>
+          <a class="close-reveal-modal">&#215;</a>
+          <h3>Заявка</h3>
+          <form action="#" class="ajax-form">
+            <div class="row">
+              <div class="large-6 columns">
+                <label>Ваше имя <span class="required-star">*</span>
+                  <input class="required" type="text" placeholder="Иванов Иван Иванович" name="ajaxform[name]" />
+                </label>
+              </div>
+              <div class="large-6 columns">
+                <label>Ваш номер телефона <span class="required-star">*</span>
+                  <input class="required" type="text" placeholder="+7 (900) 000 00 00" name="ajaxform[phone]" />
+                </label>
+              </div>              
+            </div>
+            <div class="row">
+              <div class="large-12 columns">
+                <label>Марка и модель вашего авто
+                  <input type="email" placeholder="" name="ajaxform[customercar]" />
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-6 columns">
+                <label>Выберите желаемую марку
+                  <select class="utilbrand" name="ajaxform[brand]">
+                    <option value="" disabled selected>Выберите желаемую марку авто</option>
+                    <option value="Hyundai">Lada</option>
+                  </select>                  
+                </label>
+              </div>
+              <div class="large-6 columns">
+                <label>Выберите желаемую модель
+                  <select class="utilmodel" name="ajaxform[model]">
+                  </select>                  
+                </label>
+              </div>              
+            </div>
+            <div class="row">
+              <div class="large-12 columns form-submit">
+                <input type="submit" class="ajax-form-submit button" value="Отправить заявку">
+              </div>
+            </div>
+          </form>
+        </div>
+  </body>
+</html>
