@@ -10,7 +10,7 @@ jQuery(document).ready(function($) {
             var $result = $form.find(".result");
 
             $.ajax({
-                url: "/ajaxmailer.php",
+                url: "/ajaxmailer/ajaxmailer.php",
                 type: "POST",
                 data: data
             }).done(function(html) {

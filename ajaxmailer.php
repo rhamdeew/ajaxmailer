@@ -1,5 +1,4 @@
 <?php
-
 if(isset($_REQUEST['ajaxform'])) {
 	$data = $_REQUEST['ajaxform'];
 

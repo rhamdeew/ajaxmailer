@@ -4,12 +4,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/app.js"></script>
     <title>Send</title>
   </head>
   <body>
-
+        <div id="result"></div>
         <div id="utilize" class="reveal-modal" data-reveal>
-          <a class="close-reveal-modal">&#215;</a>
           <h3>Заявка</h3>
           <form action="#" class="ajax-form">
             <div class="row">
@@ -37,12 +38,6 @@
                   <select class="utilbrand" name="ajaxform[brand]">
                     <option value="" disabled selected>Выберите желаемую марку авто</option>
                     <option value="Hyundai">Lada</option>
-                  </select>                  
-                </label>
-              </div>
-              <div class="large-6 columns">
-                <label>Выберите желаемую модель
-                  <select class="utilmodel" name="ajaxform[model]">
                   </select>                  
                 </label>
               </div>              
